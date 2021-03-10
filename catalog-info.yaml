@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testdocs"
+  description: "testdocs"
+  annotations:
+    github.com/project-slug: kurtstohrer/testdocs
+    backstage.io/techdocs-ref: url:https://github.com/kurtstohrer/testdocs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "kurtstohrer"
